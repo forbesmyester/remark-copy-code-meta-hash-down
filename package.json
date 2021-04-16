@@ -1,6 +1,6 @@
 {
   "name": "remark-copy-code-meta-hash-up",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "for a code block with a separator (default #), copy that code block up with the fence lang and meta set to what is after the separator.",
   "main": "index.js",
   "scripts": {
