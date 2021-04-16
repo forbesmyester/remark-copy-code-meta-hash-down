@@ -1,19 +1,17 @@
 {
-  "name": "remark-unixpipe",
+  "name": "remark-copy-code-meta-hash-up",
   "version": "0.1.0",
-  "description": "Allow UNIX pipes in Markdown",
+  "description": "for a code block with a separator (default #), copy that code block up with the fence lang and meta set to what is after the separator.",
   "main": "index.js",
   "scripts": {
     "test": "cat README.src.md | node ./test.js | diff - README.md"
   },
   "author": "Matt Forrester",
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "async": "^3.2.0",
-    "remark-parse": "^9.0.0",
-    "unified": "^9.2.1"
-  },
+  "dependencies": { },
   "devDependencies": {
+    "remark-parse": "^9.0.0",
+    "unified": "^9.2.1",
     "remark-stringify": "^9.0.1",
     "unified-stream": "^1.0.6"
   }
