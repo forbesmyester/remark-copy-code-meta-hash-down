@@ -1,6 +1,6 @@
 function copyCodeMetaHashUp(options) {
 
-    const separator = options.separator || '#';
+    const separator = (options || {}).separator || '#';
 
     return function copyCodeMetaHashUpTree(tree) {
 
