@@ -1,10 +1,10 @@
 {
-  "name": "remark-copy-code-meta-hash-up",
-  "version": "0.1.2",
-  "description": "for a code block with a separator (default #), copy that code block up with the fence lang and meta set to what is after the separator.",
+  "name": "remark-copy-code-meta-hash-down",
+  "version": "0.1.0",
+  "description": "for a code block with a separator (default #), copy that code block down with the fence lang and meta set to what is after the separator.",
   "main": "index.js",
   "scripts": {
-    "test": "cat README.src.md | node ./test.js | diff - README.md"
+    "test": "cat test.md | node ./test.js | diff - test-result.md"
   },
   "author": "Matt Forrester",
   "license": "GPL-3.0-or-later",

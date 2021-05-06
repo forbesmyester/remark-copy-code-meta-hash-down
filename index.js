@@ -44,8 +44,8 @@ function copyCodeMetaHashUp(options) {
                 }
                 return [
                     ...acc,
+                    { ...child, lang: child.lang, meta: saneMeta(child.meta, separator) },
                     { ...child, lang: newInfo.lang, meta: newInfo.meta },
-                    { ...child, lang: child.lang, meta: saneMeta(child.meta, separator) }
                 ];
             },
             []
